@@ -11,6 +11,7 @@ class Song
     song_name = filename.split(" - ")[1]
     song = Song.new(song_name)
     song
+    artist_object = @artist 
   end
   
 end
